@@ -9,16 +9,10 @@ html, body{
 	width: 50px;
 	height: auto;
 }
-footer{
-	padding: 20px;
-	background-color: #1c014c;
-	color: #8e83a9;
-	text-align: center;
-	border-top: 2px solid #8e83a9;
-}
-.social-media a{
-	text-decoration: none !important;
-}
+
+/* ==================
+	Navigation Start
+	================= */
 .navbar{
 	background-color: #1c014c;
 	border-radius: 0;
@@ -26,11 +20,16 @@ footer{
 	border: 0;
 	border-bottom: 2px solid #8e83a9;
 }
+.navbar-header{
+	margin-left: 15px !important;
+}
 .navbar-header > a{
 	background-color: #8e83a9;
 	color: #1c014c !important;
+	border: 1px solid #FFF;
 }
-.navbar-header > a:hover{
+.navbar-header > a:hover,
+.navbar-header > a:focus{
 	color: #8e83a9 !important;
 }
 .navbar-nav > li > a{
@@ -39,6 +38,69 @@ footer{
 .navbar-nav > li > a:hover{
 	color: #FFF !important;
 }
+.active{
+	border: 1px solid #FFF;
+	border-radius: 5px;
+}
+/* ==================
+	Navigation End
+	================= */
+
+/* ==================
+	Sidebar Start
+	================= */
+.social-media a{
+	text-decoration: none !important;
+}
+/* ==================
+	Sidebar End
+	================= */
+
+/* ===================
+	Contact Form Start
+	================== */
+.btn-custom{
+	background-color: #1c014c;
+	color: #8e83a9;
+}
+.btn-custom:hover,
+.btn-custom:focus{
+	color: #FFF;
+	opacity: 0.8;
+}
+.form-group > label{
+	color: #1c014c;
+}
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus{
+	outline: 0;
+	border: 0;
+	background-color: #1c014c;
+	color: #8e83a9;
+}
+/* ===================
+	Contact Form End
+	================== */
+
+/* ==============
+	Footer Start
+	============== */
+footer{
+	padding: 20px;
+	background-color: #1c014c;
+	color: #8e83a9;
+	text-align: center;
+	border-top: 2px solid #8e83a9;
+}
+/* ===================
+	Footer End
+	================== */
+
+
+/* =========================
+	Global Declaration Start
+	========================= */
 .well-lg{
 	border: 2px solid #FFF;
 	background-color: #8e83a9;
@@ -47,25 +109,13 @@ footer{
 	font-size: 17px;
 	color: #1c014c;
 }
-.btn-custom{
-	background-color: #1c014c;
-	color: #8e83a9;
-}
-.btn-custom:hover{
-	color: #FFF;
-	opacity: 0.8;
-}
-.form-group > label{
-	color: #1c014c;
-}
-.active{
-	border: 1px solid #FFF;
-	border-radius: 5px;
-}
 h1, h2, h3{
 	margin: 0;
 	color: #1c014c;
 }
 hr{
-	border: 1px solid #1c014c;
+	border: 2px solid #1c014c;
 }
+/* =======================
+	Global Declaration End
+	======================= */
