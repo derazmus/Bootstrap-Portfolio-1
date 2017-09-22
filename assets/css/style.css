@@ -1,5 +1,6 @@
 html, body{
 	height: 100%;
+	background-color: #1c014c;
 }
 .wrapper{
 	min-height: 85%;
@@ -10,7 +11,61 @@ html, body{
 }
 footer{
 	padding: 20px;
-	background-color: #333;
-	color: #FFF;
+	background-color: #1c014c;
+	color: #8e83a9;
 	text-align: center;
+	border-top: 2px solid #8e83a9;
+}
+.social-media a{
+	text-decoration: none !important;
+}
+.navbar{
+	background-color: #1c014c;
+	border-radius: 0;
+	padding: 10px 0;
+	border: 0;
+	border-bottom: 2px solid #8e83a9;
+}
+.navbar-header > a{
+	background-color: #8e83a9;
+	color: #1c014c !important;
+}
+.navbar-header > a:hover{
+	color: #8e83a9 !important;
+}
+.navbar-nav > li > a{
+	color: #8e83a9 !important;
+}
+.navbar-nav > li > a:hover{
+	color: #FFF !important;
+}
+.well-lg{
+	border: 2px solid #FFF;
+	background-color: #8e83a9;
+}
+.para{
+	font-size: 17px;
+	color: #1c014c;
+}
+.btn-custom{
+	background-color: #1c014c;
+	color: #8e83a9;
+}
+.btn-custom:hover{
+	color: #FFF;
+	opacity: 0.8;
+}
+.form-group > label{
+	color: #1c014c;
+}
+.active{
+	border: 1px solid #FFF;
+	border-radius: 5px;
+}
+h1, h2, h3{
+	margin: 0;
+	color: #1c014c;
+}
+hr{
+	border: 1px solid #1c014c;
 }
